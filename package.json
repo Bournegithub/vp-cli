@@ -11,7 +11,7 @@
   },
   "bin": {
     "ready": "./bin/ready.js",
-    "ready-init": "./bin/init.js"
+    "ready init": "./bin/ready-init.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
