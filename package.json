@@ -1,0 +1,29 @@
+{
+  "name": "vue-web-ready-cli",
+  "version": "1.0.0",
+  "description": "基于vue的web项目脚手架",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "bin": {
+    "ready": "./bin/ready.js",
+    "ready-init": "./bin/init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bournegithub/vue-web-ready-cli.git"
+  },
+  "author": "Bourne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bournegithub/vue-web-ready-cli/issues"
+  },
+  "homepage": "https://github.com/Bournegithub/vue-web-ready-cli#readme"
+}
