@@ -1,6 +1,6 @@
 {
   "name": "vue-web-ready-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue web",
   "dependencies": {
     "chalk": "^2.4.2",
@@ -9,6 +9,11 @@
     "inquirer": "^6.2.2",
     "ora": "^3.2.0"
   },
+  "keywords": [
+    "cli",
+    "vue",
+    "web"
+  ],
   "bin": {
     "ready": "./bin/ready.js",
     "ready init": "./bin/ready-init.js"
