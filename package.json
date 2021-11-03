@@ -1,7 +1,7 @@
 {
   "name": "vue-web-ready-cli",
-  "version": "1.0.0",
-  "description": "基于vue的web项目脚手架",
+  "version": "1.0.1",
+  "description": "vue web",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
