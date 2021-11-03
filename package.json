@@ -1,6 +1,6 @@
 {
   "name": "vue-web-ready-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue web",
   "dependencies": {
     "chalk": "^2.4.2",
