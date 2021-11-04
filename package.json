@@ -1,5 +1,5 @@
 {
-  "name": "@vue/vp-cli",
+  "name": "vue-project-cli",
   "version": "1.0.1",
   "description": "vue project cli",
   "dependencies": {
