@@ -46,7 +46,7 @@ function initProject (gitProject) {
   spinner.start();
   // 执行下载方法并传入参数
   const projectName = program.args[0]
-  download('Bournegithub/vp-web/#main', projectName, (err) => {
+  download(gitProject, projectName, (err) => {
     if (err) {
       spinner.fail();
       console.log(chalk.red(`Generation failed. ${err}`))
