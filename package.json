@@ -1,6 +1,6 @@
 {
   "name": "v-project-cli",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "vue project cli",
   "dependencies": {
     "chalk": "^2.4.2",
@@ -16,8 +16,8 @@
     "h5"
   ],
   "bin": {
-    "vp": "/bin/vp.js",
-    "vp init": "/bin/vp-init.js"
+    "vp": "./bin/vp.js",
+    "vp init": "./bin/vp-init.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
