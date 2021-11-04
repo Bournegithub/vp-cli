@@ -1,7 +1,7 @@
 {
-  "name": "vue-web-ready-cli",
-  "version": "1.0.3",
-  "description": "vue web",
+  "name": "@vue/vp-cli",
+  "version": "1.0.1",
+  "description": "vue project cli",
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
@@ -12,23 +12,24 @@
   "keywords": [
     "cli",
     "vue",
-    "web"
+    "web",
+    "h5"
   ],
   "bin": {
-    "ready": "./bin/ready.js",
-    "ready init": "./bin/ready-init.js"
+    "vp": "./bin/vp.js",
+    "vp init": "./bin/vp-init.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bournegithub/vue-web-ready-cli.git"
+    "url": "git+https://github.com/Bournegithub/vp-cli.git"
   },
-  "author": "Bourne",
+  "author": "bourneinnpm",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bournegithub/vue-web-ready-cli/issues"
+    "url": "https://github.com/Bournegithub/vp-cli/issues"
   },
-  "homepage": "https://github.com/Bournegithub/vue-web-ready-cli#readme"
+  "homepage": "https://github.com/Bournegithub/vp-cli#readme"
 }

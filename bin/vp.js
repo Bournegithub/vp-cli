@@ -7,8 +7,7 @@ const program = require('commander')
 // 定义四个指令
 program
  .version(require('../package').version)
- .usage('<command> [options]')
- .command('init', 'generate a new project from a template')
+ .command('init <project-name>', 'generate a new project from a template')
   // 扩展
   // .command('add', 'add a new template')
   // .command('delete', 'delete a template')
